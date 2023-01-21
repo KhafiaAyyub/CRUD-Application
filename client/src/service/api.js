@@ -1,8 +1,8 @@
-import axios from 'axios';
+import axios from 'axios';  //axios  library
 
-const URL = '';
+const URL = 'http://localhost:8000/';
 
-export const addUser = async (data) => {            //follow cameCase
+export const addUser = async (data) => {            //follow cameCase //declare wit the help of "const"
 //for error handling
 try{
     await axios.post('$(URL)/add', data)      //post api, pass two arguments,,await works on with asyn function
