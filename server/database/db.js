@@ -1,6 +1,9 @@
 import mongoose from 'mongoose'
 
-const Connection = () => {
+const Connection = () => {        //funciton
+    //with the help of third party library we can connect to database
+    //1.mongodb
+    //2.mnognoose (some extra feature)
     const URL = '';
 
     try {
