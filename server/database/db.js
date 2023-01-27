@@ -1,4 +1,4 @@
-import mongoose from "mongoose"
+import mongoose from "mongoose"  
 
 const Connection = async () => {        //function
     //with the help of third party library we can connect to database
