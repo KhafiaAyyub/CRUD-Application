@@ -1,9 +1,18 @@
 import express from 'express';
 import { Router } from 'express';
 import Connection from './database/db.js';
+import dotenv from 'dotenv';
+import cors from 'cors';
+
+
 const app = express();  //inialize express as func
 
 const PORT = 8000;
+
+dotenv.config();
+
+app.use(cors());
+app.use('/', Routes);
 
 
 const username = process.env.DB_USERNAME;
