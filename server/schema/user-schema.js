@@ -1,5 +1,8 @@
 import mongoose from "mongoose";
 
-mongoose.Schema(
-    name:string,
-)
+mongoose.Schema({
+    name: String,
+    username: String,
+    email: String,
+    phone: String
+})
