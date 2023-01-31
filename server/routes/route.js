@@ -7,4 +7,4 @@ router.post('/add' , ()=> {
     console.log('Hello');
 })
 
-export default Router;
+export default router;
