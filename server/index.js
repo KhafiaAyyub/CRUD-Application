@@ -11,8 +11,8 @@ const PORT = 8000;
 
 dotenv.config();
 
-app.use(cors());
-app.use('/', Routes);
+// app.use(cors());
+// app.use('/', Routes);
 
 
 const username = process.env.DB_USERNAME;
