@@ -29,11 +29,12 @@ const pass = process.env.mongoPass;
 // const url = `;
   const url = `mongodb+srv://khafiaayyub_:khafiaayyub@crud-app.lrarmgn.mongodb.net/?retryWrites=true&w=majority`;
 
-  
+
 mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
 })
+
 .then(console.log('connecting'))
 .catch(err => console.log(`error: ${err}`))
